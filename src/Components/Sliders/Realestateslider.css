@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+@font-face {
+    font-family: Strike;
+    src: url(/src/Assets/Protest_Strike/ProtestStrike-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(/src/Assets/static/Montserrat-Light.ttf);
+}
+
+.legacy {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('https://res.cloudinary.com/damamkuye/image/upload/v1742212336/inner_estate_balnii.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    gap: 30px;
+    margin-top: 50px;
+    font-family: Montserrat;
+    padding: 10px 100px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.legacy > h2 {
+    font-size: 50px;
+    color: #06112A;
+}
+.legacy > p {
+    font-size: 20px;
+    color: #06112A;
+}
+
+.realestate-container {
+    width: 100%;
+    /* margin: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    gap: 20px;
+    padding:50px 0px;
+}
+
+@media screen and (max-width:896px) {
+    .realestate-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+        gap: 20px;
+        padding:50px 0px;
+    }
+}
+
+/* Left Side - Text */
+.text-slider {
+    width: 46%;
+    height: 500px;
+    padding: 30px;
+    background-color: rgba(38, 37, 37, 0.1);
+    /* display: flex; */
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    line-height: 2rem;
+}
+
+.realestate-text {
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.realestate-text h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: Montserrat;
+}
+
+.realestate-text p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+    font-family: Montserrat;
+}
+
+.realestate-text .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #06112A;
+    font-family: Montserrat;
+}
+
+/* Middle Navigation Buttons */
+.nav-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-btn {
+    color: #06112A;
+    border: none;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: Montserrat;
+}
+
+.nav-btn > .left-btn:hover {
+    background: #06112A;
+    color: #fff;
+}
+
+/* Positioning Left & Right Buttons */
+.left-btn {
+    position: absolute;
+    left: 48%;
+    top: 45%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    color: #06112A;
+}
+
+.right-btn {
+    position: absolute;
+    right: 48%;
+    color: #06112A;
+    top: 45%;
+    cursor: pointer;
+    transform: translateX(50%);
+}
+
+/* Right Side - Image */
+.image-slider {
+    width: 46%;
+}
+
+.realestate-image img {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .realestate-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .text-slider,
+    .image-slider {
+        width: 90%;
+    }
+
+    .nav-btn {
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .left-btn, .right-btn {
+        top: 50%;
+    }
+}
