@@ -1,0 +1,94 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+@font-face {
+    font-family: Strike;
+    src: url(/src/Assets/Protest_Strike/ProtestStrike-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(/src/Assets/static/Montserrat-Light.ttf);
+}
+
+
+.creativity-header {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  background-image: url(https://res.cloudinary.com/damamkuye/image/upload/v1742669801/architecture-creative-design_mpan5y.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.creativity-header > h2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 50px;
+  font-family: Strike;
+  color: #D6D1A0;
+}
+
+.service-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding: 100px;
+  }
+  
+  .service-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0px;
+  }
+  
+  .service-section > img {
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-description {
+    width: 50%;
+    padding-right: 20px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #06112A;
+    font-family: Montserrat;
+  }
+  
+  .service-description > strong {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: Strike;
+    color: #D6D1A0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .service-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .service-image, .service-description {
+      width: 100%;
+    }
+  }
+  
