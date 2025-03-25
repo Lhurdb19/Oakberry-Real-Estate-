@@ -10,7 +10,7 @@ function Rentproperty() {
         
         <div className="header-text">
             <span>
-                <a href="/">HOME </a> <p>Rent</p>
+                <a href="/">HOME </a> <p>RENT</p>
             </span>
             <h2>Rent Apartment</h2>
         </div>

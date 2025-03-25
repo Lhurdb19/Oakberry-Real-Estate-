@@ -19,17 +19,12 @@ function Home() {
     <MultipleItems/>
     <div className='home-container'>
     <div className="image-container">
-      <img
-        src="https://res.cloudinary.com/damamkuye/image/upload/v1742214182/imagist3ds-real-estate-rendering-3d-floor-plan_x4na3j.jpg"
-        alt="3D Floor Plan"
-        className="rotating-image"
-      />
       <ContactSection/>
     </div>
 
     <div className="explore-container">
       <div className="category-con">
-        <h4>OAKBERRY CATEGORIES</h4>
+        <h4>CREATIVITY CATEGORIES</h4>
         <h2>Explore Our Categories & Places</h2>
       </div>
       <div className="land-link">

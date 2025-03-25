@@ -5,3 +5,77 @@
     text-decoration: none;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.about-slider-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Prevents flex-direction: column */
+.slider-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+    text-align: left;
+}
+
+/* Icon */
+.quote-icon {
+    font-size: 1.4rem;
+    color: #06112A;
+}
+
+/* Client Image & Text */
+.clients-image-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.clients-image-text img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #06112A;
+}
+
+.clients-text h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.clients-text h5 {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0;
+    font-weight: 400;
+}
+
+/* Slick Dots */
+.slick-dots {
+    bottom: -30px;
+}
+
+.slick-dots li button:before {
+    font-size: 10px;
+    color: #007bff;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #007bff;
+    opacity: 1;
+}

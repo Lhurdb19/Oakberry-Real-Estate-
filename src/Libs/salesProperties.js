@@ -11,7 +11,7 @@ export const useSalesProperties = () => {
         location: "Beverly Hills, CA",
         price: "$1,200,000",
         description: "A stunning luxury villa with a private pool, spacious garden, and modern architecture.",
-        image: "https://res.cloudinary.com/damamkuye/image/upload/v1742520536/house2_cot55t.jpg",
+        image: "https://res.cloudinary.com/damamkuye/image/upload/v1742520533/house3_ubhix8.jpg",
       },
       {
         title: "Modern Penthouse",
@@ -25,28 +25,28 @@ export const useSalesProperties = () => {
         location: "Malibu, CA",
         price: "$8,900,000",
         description: "An exclusive beachfront mansion with direct access to a private beach and an infinity pool.",
-        image: "https://res.cloudinary.com/damamkuye/image/upload/v1742520532/house4_ni8pwn.jpg",
+        image: "https://res.cloudinary.com/damamkuye/image/upload/v1742212336/inner_estate_balnii.jpg",
       },
       {
         title: "Elegant Townhouse",
         location: "Chicago, IL",
         price: "$850,000",
         description: "A spacious three-bedroom townhouse with premium furnishing and a rooftop terrace.",
-        image: "https://res.cloudinary.com/damamkuye/image/upload/v1742212847/home-model-2_f62whp.png",
+        image: "https://res.cloudinary.com/damamkuye/image/upload/v1742212364/Real-Estate-M_xjeydj.jpg",
       },
       {
         title: "Smart Apartment",
         location: "Austin, TX",
         price: "$620,000",
         description: "A fully furnished two-bedroom apartment with smart home automation and security features.",
-        image: "https://res.cloudinary.com/damamkuye/image/upload/v1742212847/home-model-2_f62whp.png",
+        image: "https://res.cloudinary.com/damamkuye/image/upload/v1742212293/inner2_dlxwmp.jpg",
       },
       {
         title: "Skyline View Condo",
         location: "Seattle, WA",
         price: "$1,100,000",
         description: "Enjoy breathtaking skyline views from this modern high-rise condo in the city center.",
-        image: "https://res.cloudinary.com/damamkuye/image/upload/v1742212847/home-model-2_f62whp.png",
+        image: "https://res.cloudinary.com/damamkuye/image/upload/v1742212358/3d-visualization_boyv4f.webp",
       },
       {
         title: "Ultra-Modern Duplex",
@@ -88,7 +88,7 @@ export const useSalesProperties = () => {
         location: "Lake Tahoe, NV",
         price: "$4,700,000",
         description: "A stunning lakeside property with a private dock, glass walls, and luxury living spaces.",
-        image: "https://res.cloudinary.com/damamkuye/image/upload/v1742212464/3D-real-estate-projects1_ifmnvp.jpg",
+        image: "https://res.cloudinary.com/damamkuye/image/upload/v1742212382/Real-Estate-Marketing_rzlyze.jpg",
       },
     ];
 

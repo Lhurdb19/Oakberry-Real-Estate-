@@ -22,6 +22,7 @@ import Structuraldesign from "./Components/Pages/structuraldesign";
 import BuildingConstruction from "./Components/Pages/buildingcontruction";
 import ProjectSupervision from "./Components/Pages/projectsupervision";
 import Generalbuildingsuppliers from "./Components/Pages/generalbuildingsuppliers";
+import RealEstateBlog from "./Components/Blogs/realestateblogs";
 
 function App() {
     return (
@@ -32,7 +33,7 @@ function App() {
                 <Route path="/" element={<Home/>}/>
                 <Route path="/aboutus" element={<AboutUs />} />
                 <Route path="/ouragent" element={<Ouragent />} />
-                
+                <Route path="realestateblogs" element={<RealEstateBlog/>}/>
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/rentproperty" element={<Rentproperty />} />
                 <Route path="/saleproperty" element={<Saleproperty />} />

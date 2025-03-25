@@ -10,7 +10,7 @@ function Saleproperty() {
            
         <div className="header-text">
             <span>
-                <a href="/">HOME </a> <p>Rent</p>
+                <a href="/">HOME </a> <p>SALE</p>
             </span>
             <h2>Sale Apartment</h2>
         </div>

@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-about">
-          <h2>Oakberry Real Estate Agency</h2>
+          <h2>Creativity Real Estate Agency</h2>
           <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
           <div className="social-icons">
             <a href="#"><FaFacebookF /></a>

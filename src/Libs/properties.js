@@ -11,14 +11,14 @@ export const useRentProperties = () => {
         location: "Beverly Hills, CA",
         price: "$4,500/month",
         description: "A breathtaking penthouse with panoramic city views, modern furnishings, and a rooftop terrace.",
-        image: "https://res.cloudinary.com/damamkuye/image/upload/v1742520536/house2_cot55t.jpg",
+        image: "https://res.cloudinary.com/damamkuye/image/upload/v1742212414/home-estate_dtpuwp.jpg",
       },
       {
         title: "Modern Loft",
         location: "New York, NY",
         price: "$3,200/month",
         description: "A stylish loft with high ceilings, industrial decor, and smart home features.",
-        image: "https://res.cloudinary.com/damamkuye/image/upload/v1742212464/3D-real-estate-projects1_ifmnvp.jpg",
+        image: "https://res.cloudinary.com/damamkuye/image/upload/v1742212427/luxury-real_xhrxoo.jpg",
       },
       {
         title: "Beachfront Condo",
@@ -32,21 +32,21 @@ export const useRentProperties = () => {
         location: "San Francisco, CA",
         price: "$2,800/month",
         description: "Compact yet elegant, this studio offers city views and modern interiors.",
-        image: "https://res.cloudinary.com/damamkuye/image/upload/v1742520557/3-bed-terrace_yvem3b.jpg",
+        image: "https://res.cloudinary.com/damamkuye/image/upload/v1742256654/inside_3d_pqoil3.webp",
       },
       {
         title: "Spacious Townhouse",
         location: "Chicago, IL",
         price: "$3,900/month",
         description: "A spacious three-bedroom townhouse with a private garden and premium furnishing.",
-        image: "https://res.cloudinary.com/damamkuye/image/upload/v1742212847/home-model-2_f62whp.png",
+        image: "https://res.cloudinary.com/damamkuye/image/upload/v1742641343/interior_2_annk29.webp",
       },
       {
         title: "Contemporary Apartment",
         location: "Austin, TX",
         price: "$2,500/month",
         description: "A fully furnished two-bedroom apartment with smart home integration.",
-        image: "https://res.cloudinary.com/damamkuye/image/upload/v1742212847/home-model-2_f62whp.png",
+        image: "https://res.cloudinary.com/damamkuye/image/upload/v1742571036/interiro_sd0kx4.jpg",
       },
       {
         title: "Skyline View Flat",
@@ -74,7 +74,7 @@ export const useRentProperties = () => {
         location: "Orlando, FL",
         price: "$2,300/month",
         description: "A cozy bungalow with minimalist decor and natural lighting.",
-        image: "https://res.cloudinary.com/damamkuye/image/upload/v1742520532/house4_ni8pwn.jpg",
+        image: "https://res.cloudinary.com/damamkuye/image/upload/v1742212364/Real-Estate-M_xjeydj.jpg",
       },
       {
         title: "Luxury High-Rise",
@@ -88,7 +88,7 @@ export const useRentProperties = () => {
         location: "Denver, CO",
         price: "$3,600/month",
         description: "A scenic retreat surrounded by nature, offering peace and modern comfort.",
-        image: "https://res.cloudinary.com/damamkuye/image/upload/v1742212847/home-model-2_f62whp.png",
+        image: "https://res.cloudinary.com/damamkuye/image/upload/v1742259809/3d_image_jukddi.webp",
       },
     ];
 

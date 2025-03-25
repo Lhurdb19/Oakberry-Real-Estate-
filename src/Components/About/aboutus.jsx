@@ -1,6 +1,7 @@
 import React from 'react';
 import CountUp from 'react-countup'; // ✅ Import CountUp component
 import './About.css';
+import SimpleSlider from '../Sliders/aboutsliders';
 
 const CountUp1 = () => <CountUp end={50} duration={3} />;
 const CountUp2 = () => <CountUp end={210} duration={3} />;
@@ -12,16 +13,17 @@ function AboutUs() {
     return (
       <>
         <div className="aboutus-image">
-            <h1>ABOUT OAKBERRY REAL ESTATE</h1>
+            <h1>ABOUT CREATIVITY REAL ESTATE</h1>
             <a href="/">LEARN MORE</a>
         </div>
         <div className='about-container'>
-          <div className="about-oakberry">
-            <img src="https://res.cloudinary.com/damamkuye/image/upload/v1742256654/inside_3d_pqoil3.webp" alt="" />
-            <div className="about-oak-text">
+          <div className="about-creativity">
               <h5>ABOUT US</h5>
-              <h2>Oakberry A Real Estate Company</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <img src="https://res.cloudinary.com/damamkuye/image/upload/v1742256654/inside_3d_pqoil3.webp" alt="" />
+            <div className="about-crt-text">
+              <h5>ABOUT US</h5>
+              <h2>Creativity A Real Estate Company</h2>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia, there live the blind texts. Separated they live in Bookmarks right at the coast of the Semantics, a large language ocean.</p>
               <div className="countup-con">
                 
                 <div className="counter-box">
@@ -55,6 +57,7 @@ function AboutUs() {
             <a href="/">GET IN TOUCH</a>
           </div>
         </div>
+        <SimpleSlider/>
       </>
     );
   }
