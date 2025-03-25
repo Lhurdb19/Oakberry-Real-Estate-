@@ -13,14 +13,15 @@ nav {
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    background-color: #06112A;
+    background-color: #fff;
     padding: 20px 100px;
     position: fixed;
     z-index: 100;
+    border-bottom: 1px solid #06112A;
 }
 
 nav > a {
-    color: #d6d1a0;
+    color: #06112A;
     font-size: 35px;
 }
 
@@ -34,7 +35,7 @@ nav > a {
 
 .nav-link > ul > li {
     height: 100%;
-    color: #d6d1a0;
+    color: #06112A;
     font-size: 15px;
     display: flex;
     align-items: center;
@@ -51,30 +52,36 @@ nav > a {
 }
 
 .nav-link > a {
-    color: #d6d1a0;
+    color: #06112A;
     font-weight: 600;
 }
 
-.dropdown-menu {
+.dropdown {
+    display: flex;
+    color: #06112A;
+    cursor: pointer;
+}
+
+.dropdown-menu-box {
+    width: 150px;
     position: absolute;
     background: white;
     border-bottom: 3px solid #111134;
     border-bottom-right-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     padding: 10px;
     top: 70px;
-    width: 100px;
-    gap: 10px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
+    gap: 5px;
     cursor: pointer;
+    font-size: 11px;
 }
 
-.dropdown {
-    color: #d6d1a0;
-    cursor: pointer;
+.dropdown-menu-box > a {
+    color: #06112A;
 }
 
 .toggle-menu {
@@ -91,7 +98,6 @@ nav > a {
     }
     
     nav > a {
-        color: #d6d1a0;
         font-size: 25px;
         font-weight: 800;
     }
@@ -109,7 +115,7 @@ nav > a {
         transform: translateX(100%);
         position: fixed;
         z-index: 100;
-        background-color: #111134;
+        background-color: #fff;
         transition: all 0.3s ease-in-out;
         padding: 10px;
     }
@@ -132,7 +138,7 @@ nav > a {
         flex-direction: column;
     }
     
-    .dropdown .dropdown-menu {
+    .dropdown-menu-box {
         position: relative;
         background: transparent;
         border-bottom: none;
