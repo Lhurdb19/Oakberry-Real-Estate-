@@ -34,6 +34,7 @@
     padding: 10px 100px;
     text-align: center;
     font-weight: 700;
+    overflow: hidden;
 }
 
 .legacy > h2 {

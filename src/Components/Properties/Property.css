@@ -114,6 +114,7 @@
     padding: 100px;
     gap: 40px;
     background-color: #f8f9fa;
+    overflow: hidden;
 }
 
 @media screen and (max-width:896px) {
@@ -280,6 +281,7 @@
     flex-direction: column;
     padding: 100px;
     gap: 40px;
+    overflow: hidden;
 }
 
 

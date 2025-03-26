@@ -23,6 +23,7 @@ import BuildingConstruction from "./Components/Pages/buildingcontruction";
 import ProjectSupervision from "./Components/Pages/projectsupervision";
 import Generalbuildingsuppliers from "./Components/Pages/generalbuildingsuppliers";
 import RealEstateBlog from "./Components/Blogs/realestateblogs";
+import CookiesConsent from "./Components/Cookies/cookies";
 
 function App() {
     return (
@@ -53,6 +54,7 @@ function App() {
                 <Route path="/services" element={<Services />} />
                 <Route path="*" element={<Notfound/>}/>
             </Routes>
+            <CookiesConsent/>
             <Footer/>
         </Router>
     );
