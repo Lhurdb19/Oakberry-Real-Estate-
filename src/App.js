@@ -24,6 +24,7 @@ import ProjectSupervision from "./Components/Pages/projectsupervision";
 import Generalbuildingsuppliers from "./Components/Pages/generalbuildingsuppliers";
 import RealEstateBlog from "./Components/Blogs/realestateblogs";
 import CookiesConsent from "./Components/Cookies/cookies";
+import LosAngelesRent from "./Components/Losangelespropery/losangelesproperty";
 
 function App() {
     return (
@@ -50,8 +51,8 @@ function App() {
                 <Route path="/buildingconstruction" element={<BuildingConstruction />} />
                 <Route path="/projectsupervision" element={<ProjectSupervision />} />
                 <Route path="/generalbuildingsuppliers" element={<Generalbuildingsuppliers />} />
-
                 <Route path="/services" element={<Services />} />
+                <Route path="/losangelesrent" element={<LosAngelesRent/>}/>
                 <Route path="*" element={<Notfound/>}/>
             </Routes>
             <CookiesConsent/>

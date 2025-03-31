@@ -1,0 +1,160 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Montserrat;
+  }
+  
+  .aparte-header {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    position: relative;
+  }
+  .aparte-header > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .aparte-header > span {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+  }
+
+  .aparte-header > span > h2 {
+    font-size: 30px;
+    color: #fff;
+  }
+
+  @media screen and (max-width:896px) {
+    .aparte-header {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        position: relative;
+      }
+      .aparte-header > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    
+      .aparte-header > span {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0,0,0,0.5);
+        position: absolute;
+      }
+    
+      .aparte-header > span > h2 {
+        font-size: 20px;
+        color: #fff;
+      }
+  }
+
+.apartment-rent {
+    width: 100%;
+    text-align: center;
+    padding: 100px;
+}
+
+.apartment-rent > h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:896px) {
+    .apartment-rent {
+        width: 100%;
+        text-align: center;
+        padding: 50px 10px;
+        overflow: hidden;
+    }
+    
+    .apartment-rent > h1 {
+        font-size: 15px;
+        line-height: 1.4rem;
+        margin-bottom: 20px;
+    }
+}
+
+.switch-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.switch-container > .switch-btn {
+    background: #eee;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.switch-container > .switch-btn.active {
+    background: #007BFF;
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (max-width:896px) {
+    .switch-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        margin-bottom: 20px;
+        overflow: hidden;
+        gap: 20px;
+    }
+    
+    .switch-container > .switch-btn {
+        background: #eee;
+        border: none;
+        padding: 10px;
+        margin: 0 5px;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+}
+
+.apartment-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.apartment-list > .apartment {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background: #f9f9f9;
+    text-align: left;
+}
+
+.apartment-list > .apartment > img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.apartment-list > .apartment > h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.apartment-list > .apartment > p {
+    font-size: 14px;
+    margin: 5px 0;
+}

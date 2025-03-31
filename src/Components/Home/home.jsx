@@ -9,9 +9,9 @@ import { IoLocationSharp } from "react-icons/io5";
 import { LiaBedSolid } from "react-icons/lia";
 import { LiaBathSolid } from "react-icons/lia";
 import { GiWindow } from "react-icons/gi";
-import './Home.css';
 import RealEstateSlider from '../Sliders/realestateslider';
 import ContactSection from '../Contacts/contactsection';
+import './Home.css';
 
 function Home() {
   return (
@@ -60,62 +60,62 @@ function Home() {
       <div className="each-pro-states">
         <span>
           
-          <Link to={'/'}>
+          <Link to={'/losangelesrent'}>
           <h5>New York</h5>
           <button>209 Properties</button>
           </Link>
 
-          <Link to={'/'}>
+          <Link to={'/losangelesrent'}>
           <h5>California</h5>
           <button>105 Properties</button>
           </Link>
 
-          <Link to={'/'}>
+          <Link to={'/losangelesrent'}>
           <h5>Florida</h5>
           <button>421 Properties</button>
           </Link>
 
-          <Link to={'/'}>
+          <Link to={'/losangelesrent'}>
           <h5>London</h5>
           <button>100 Properties</button>
           </Link>
 
-          <Link to={'/'}>
+          <Link to={'/losangelesrent'}>
           <h5>Tennessee</h5>
           <button>200 Properties</button>
           </Link>
 
-          <Link to={'/'}>
+          <Link to={'/losangelesrent'}>
           <h5>Charlotte</h5>
           <button>229 Properties</button>
           </Link>
 
-          <Link to={'/'}>
+          <Link to={'/losangelesrent'}>
           <h5>Chicago</h5>
           <button>324 Properties</button>
           </Link>
 
-          <Link to={'/'}>
+          <Link to={'/losangelesrent'}>
           <h5>Texas</h5>
           <button>125 Properties</button>
           </Link>
 
-          <Link to={'/'}>
+          <Link to={'/losangelesrent'}>
           <h5>Orlando</h5>
           <button>211 Properties</button>
           </Link>
 
-          <Link to={'/'}>
+          <Link to={'/losangelesrent'}>
           <h5>Illinios</h5>
           <button>202 Properties</button>
           </Link>
 
-          <Link to={'/'}>
+          <Link to={'/losangelesrent'}>
           <h5>North Carolina</h5>
           <button>97 Properties</button>
           </Link>
 
-          <Link to={'/'}>
+          <Link to={'/losangelesrent'}>
           <h5>Atlanta</h5>
           <button>320 Properties</button>
           </Link>
