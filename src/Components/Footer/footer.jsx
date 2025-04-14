@@ -1,12 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FaFacebookF, FaInstagram, FaTelegramPlane, FaTwitter, FaLinkedinIn, FaTiktok, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-about">
-          <h2>Creativity Real Estate Agency</h2>
+          <h2>Creativity</h2>
           <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
           <div className="social-icons">
             <a href="#"><FaFacebookF /></a>
@@ -23,30 +26,31 @@ const Footer = () => {
           <div>
             <h3>Offers</h3>
             <ul>
-              <li>Properties</li>
-              <li>Agents</li>
-              <li>Locations</li>
-              <li>Clients Support</li>
+              <Link to='/losangelesrent'>Properties</Link>
+              <Link to='/rentproperty'>Rent Property</Link>
+              <Link to='/saleproperty'>Sale Property</Link>
+              <Link to='/'>Clents Review</Link>
             </ul>
           </div>
 
           <div>
             <h3>Company</h3>
             <ul>
-              <li>Home</li>
-              <li>About</li>
-              <li>Blog</li>
-              <li>Contact Us</li>
+              <Link to='/'>Home</Link>
+              <Link to='/ouragent'>Our Agents</Link>
+              <Link to='/aboutus'>About</Link>
+              <Link to='/realestateblogs'>Blogs</Link>
+              <Link to='/contact'>Contact Us</Link>
             </ul>
           </div>
 
           <div>
             <h3>Quick Links</h3>
             <ul>
-              <li>Terms & Conditions</li>
-              <li>User's Guide</li>
-              <li>Support Center</li>
-              <li>Press Info</li>
+              <Link to='/'>Terms & Conditions</Link>
+              <Link to='/'>User's Support</Link>
+              <Link to='/'>Support Center</Link>
+              <Link to='/aboutus'>Press Info</Link>
             </ul>
           </div>
         </div>
@@ -58,6 +62,7 @@ const Footer = () => {
           <p><a href="mailto:info@yourdomain.com">info@yourdomain.com</a></p>
         </div>
       </div>
+      <footer className="bottom-footer">&copy; {currentYear} Creativity All Right Reserved. Made By <Link>HejiDev</Link> </footer>
     </footer>
   );
 };

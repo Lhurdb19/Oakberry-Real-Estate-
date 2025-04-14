@@ -74,12 +74,16 @@
   }
 
   .category-con > h4 {
-    font-size: 25px;
+    font-size: 20px;
     color: #06112A;
-  }
-  .category-con > h2 {
-    font-size: 35px;
+    font-family: Strike;
+    font-weight: 400;
+}
+.category-con > h2 {
+    font-size: 30px;
     color: #06112A;
+    font-family: Strike;
+    font-weight: 400;
   }
 
   @media screen and (max-width:896px) {
@@ -229,6 +233,8 @@
     cursor: pointer;
     color: #06112A;
     font-size: 20px;
+    font-family: Strike;
+    font-weight: 400;
 }
 
 .each-pro-states > span > a > button {
@@ -275,6 +281,12 @@
      }
 }
 
+.our-property-con > h4, .our-property-con > h2 {
+    font-family: Strike;
+    font-weight: 400;
+    text-align: center;
+}
+
 .sunny-pro-container {
     width: 100%;
     display: flex;
@@ -290,6 +302,8 @@
     align-items: flex-start;
     flex-direction: column;
     gap: 0px;
+    font-family: Strike;
+    font-weight: 400;
 }
 
 @media screen and (max-width:896px) {
@@ -339,6 +353,8 @@
     margin: 10px ;
     color: #D6D1A0;
     background-color: #06112A;
+    font-family: Strike;
+    font-weight: 400;
 }
 
 .sunny-text {
@@ -378,6 +394,8 @@
 .sunny-text > h3 {
     color: #06112A;
     font-size: 18px;
+    font-family: Strike;
+    font-weight: 400;
 }
 
 .sunny-text > h1 {
@@ -385,6 +403,8 @@
     justify-content: flex-start;
     align-items: center;
     gap: 20px;
+    font-family: Strike;
+    font-weight: 400;
     font-size: 14px;
 }
 .sunny-text > h1 > h6 {

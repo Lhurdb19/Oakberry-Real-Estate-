@@ -22,7 +22,7 @@ function AboutUs() {
             <img src="https://res.cloudinary.com/damamkuye/image/upload/v1742256654/inside_3d_pqoil3.webp" alt="" />
             <div className="about-crt-text">
               <h5>ABOUT US</h5>
-              <h2>Creativity A Real Estate Company</h2>
+              <h2>Creativity Real Estate Company</h2>
               <p>Far far away, behind the word mountains, far from the countries Vokalia, there live the blind texts. Separated they live in Bookmarks right at the coast of the Semantics, a large language ocean.</p>
               <div className="countup-con">
                 

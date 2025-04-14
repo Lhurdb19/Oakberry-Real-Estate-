@@ -34,7 +34,7 @@ export default function SimpleSlider() {
           { name: "Emily White", role: "Business Consultant", text: "Their work speaks for itself—high quality, timely delivery, and a team that truly cares!" }
         ].map((client, index) => (
           <div className="slider-wrap" key={index} data-aos="fade-up">
-            <div className="quote-icon"><FaQuoteLeft /></div>
+            {/* <div className="quote-icon"><FaQuoteLeft /></div> */}
             <p>{client.text}</p>
             <div className="clients-image-text">
               <img src="https://res.cloudinary.com/damamkuye/image/upload/v1742515747/real_estates_agent_3_djrrte.jpg" alt={client.name} />

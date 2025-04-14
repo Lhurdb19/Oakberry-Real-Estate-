@@ -10,7 +10,7 @@ const LosAngelesRent = () => {
     <div className="aparte-header">
         <img src="https://ik.imagekit.io/livlabs/ik-seo/pma/assets/iStock-1460658780_puC8XPjkCz/a-white-and-red-sign-advertises-a-house-for-rent.jpg?tr=w-auto,dpr-4,q-70" alt="" />
         <span>
-            <h2>LOS ANGELES APARTMENT</h2>
+            <h2>RENT APARTMENT</h2>
         </span>
     </div>
       <div className="apartment-rent">

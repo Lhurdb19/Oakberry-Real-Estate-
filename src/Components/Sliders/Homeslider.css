@@ -68,17 +68,21 @@
 .wrapper-text h2 {
     font-size: 30px;
     margin-bottom: 20px;
+    font-family: Strike;
 }
 
 .wrapper-text p {
-    font-size: 16px;
+    width: 900px;
+    font-size: 20px;
+    line-height: 2.5rem;
     margin-bottom: 20px;
+    font-weight: 800;
 }
 
 .wrapper-text a {
     color: #fff;
     text-decoration: none;
-    background-color: #f39c12;
+    background-color: #06112A;
     padding: 10px 20px;
     border-radius: 5px;
 }
@@ -165,6 +169,7 @@
     color: #06112A;
     background-color: #fff;
     cursor: pointer;
+    font-family: Strike;
 }
 
 .modal > .switch > button:focus {
